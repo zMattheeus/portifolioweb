@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
 .header_container{
     display: flex;
     align-items: center;
@@ -9,19 +13,23 @@
     margin-top: 50px;
 
 
-    .icons{
-        display: none;
+    h1{
+        font-family: 'Dancing Script', cursive;
     }
-
+    
     .links {
     
         a{
             text-decoration: none;
             color: #ffffff;
         }
+
+        a:hover{
+            color: orange;
+        }
     
         ul{
-        display: flex;
+        display: none;
         gap: 40px;
         font-size: 18px;
         font-weight: 500;
@@ -41,6 +49,15 @@
             
             svg{
                 width: 50px;
+            }
+        }
+
+        .links{
+            ul{
+                display: flex;
+            }
+            hamburger{
+                display: none;
             }
         }
     }

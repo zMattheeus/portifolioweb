@@ -1,0 +1,45 @@
+/* menu.component.css */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button {
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #252525;
+    padding: 70px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    gap: 15px;
+
+  }
+  
+  #menu-toggle:checked + .menu-button + .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  
+  .menu a:hover{
+    color: orange;
+  }
