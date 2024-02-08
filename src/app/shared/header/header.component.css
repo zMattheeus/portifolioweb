@@ -1,0 +1,21 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px 10px;
+
+
+
+
+
+
+
+    .links ul{
+        display: flex;
+        gap: 40px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
