@@ -10,7 +10,7 @@
     padding: 5px 30px;
     
     background: #252525;
-    margin-top: 50px;
+    margin-top: 0px;
 
 
     h1{
@@ -39,7 +39,7 @@
 
 }
 
-@media(min-width: 720px){
+@media(min-width: 1080px){
     .header_container{
         .icons{
             display: flex;
