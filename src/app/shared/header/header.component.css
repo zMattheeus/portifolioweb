@@ -8,9 +8,10 @@
     justify-content: space-between;
     border-radius: 15px;
     padding: 5px 30px;
+    margin: 0 45px;
     
     background: #252525;
-    margin-top: 0px;
+    margin-top: 25px;
 
 
     h1{
@@ -34,6 +35,10 @@
         font-size: 18px;
         font-weight: 500;
     }
+}
+
+.actvated{
+    color: orange;
 }
 
 
