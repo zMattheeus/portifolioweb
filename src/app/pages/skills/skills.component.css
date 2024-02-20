@@ -45,6 +45,12 @@ section{
     gap: 40px;
 }
 
+.container_soft{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 @media (min-width: 1080px){
     .cards{
         flex-direction: row;

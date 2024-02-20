@@ -12,6 +12,7 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { ProjetoComponent } from './pages/projeto/projeto.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { CardSkillsComponent } from './shared/card-skills/card-skills.component';
+import { CardSoftComponent } from './shared/card-soft/card-soft.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardSkillsComponent } from './shared/card-skills/card-skills.component'
     SkillsComponent,
     ProjetoComponent,
     ContatoComponent,
-    CardSkillsComponent
+    CardSkillsComponent,
+    CardSoftComponent
   ],
   imports: [
     BrowserModule,
