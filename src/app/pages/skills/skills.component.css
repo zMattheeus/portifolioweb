@@ -43,12 +43,14 @@ section{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .container_soft{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    flex-wrap: wrap;
 }
 
 @media (min-width: 1080px){
